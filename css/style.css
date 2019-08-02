@@ -26,9 +26,15 @@ html, * {
 
   main button {
       grid-column: span 3;
-  }
-
-  button {
       margin: 2vmin;
   }
 
+#p-result, #c-result {
+    border: 3vmin solid white;
+    border-radius: 5vmin;
+    padding: 2vmin;
+}
+
+#p-result img, #c-result img{
+    width: 100%
+}
